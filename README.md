@@ -1,6 +1,6 @@
 # SecAI_Radar
 
-> 🛡️ Automatically tracking AI security papers from top-tier AI & security conferences. / 自动追踪顶级 AI 与安全会议中的 AI 安全相关论文。
+> 🛡️ Tracking AI security papers from top-tier AI & security conferences. / 追踪顶级 AI 与安全会议中的 AI 安全相关论文。
 
 [English](#english) | [中文](#中文)
 
@@ -8,7 +8,7 @@
 
 ## English
 
-Automatically scrape AI security related papers from CCF-A (and top-tier) AI & security conferences, filter by keywords, and update the README & GitHub Pages.
+Tracking AI security related papers from CCF-A (and top-tier) AI & security conferences, filtered by keywords.
 
 ### Covered Conferences
 
@@ -43,12 +43,6 @@ Papers are filtered by matching keywords in title/abstract, covering:
 
 ### Usage
 
-#### Auto Update
-
-GitHub Actions runs every two months (1st of odd months) to check conference websites and auto-update.
-
-#### Manual Trigger
-
 ```bash
 pip install -r requirements.txt
 
@@ -66,7 +60,7 @@ python scripts/main.py --generate-only
 
 ## 中文
 
-自动抓取 CCF-A 类（及顶级）AI 与安全会议中的 AI 安全相关论文，通过关键词筛选，并更新 README 与 GitHub Pages。
+追踪 CCF-A 类（及顶级）AI 与安全会议中的 AI 安全相关论文，通过关键词筛选。
 
 ### 覆盖会议
 
@@ -89,7 +83,7 @@ python scripts/main.py --generate-only
 
 ### 筛选关键词
 
-项目通过以下类别的关键词自动筛选 AI 安全相关论文：
+项目通过以下类别的关键词筛选 AI 安全相关论文：
 
 - **对抗攻击与鲁棒性**：adversarial、evasion、certified robustness
 - **后门与投毒**：backdoor、trojan、data poisoning
@@ -100,12 +94,6 @@ python scripts/main.py --generate-only
 - **Agent 安全**：agent safety、tool injection、multi-agent security、agentic security、MCP security
 
 ### 使用方式
-
-#### 自动运行
-
-GitHub Actions 每两个月（奇数月 1 日）定时检查会议官网，发现新 accepted papers 列表后自动抓取、筛选并更新。
-
-#### 手动触发
 
 ```bash
 pip install -r requirements.txt
@@ -123,8 +111,6 @@ python scripts/main.py --generate-only
 ---
 
 ## Paper List / 论文列表
-
-> The following content is auto-generated. Do not edit manually. / 以下内容由脚本自动生成，请勿手动编辑。
 
 <!-- PAPERS_TABLE_START -->
 <details>
