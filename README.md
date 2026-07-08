@@ -45,7 +45,7 @@ Papers are filtered by matching keywords in title/abstract, covering:
 
 #### Auto Update
 
-GitHub Actions runs daily to check conference websites and auto-update.
+GitHub Actions runs bi-monthly (1st and 15th of each month) to check conference websites and auto-update.
 
 #### Manual Trigger
 
@@ -103,7 +103,7 @@ python scripts/main.py --generate-only
 
 #### 自动运行
 
-GitHub Actions 每天定时检查会议官网，发现新 accepted papers 列表后自动抓取、筛选并更新。
+GitHub Actions 每两周（每月 1 日和 15 日）定时检查会议官网，发现新 accepted papers 列表后自动抓取、筛选并更新。
 
 #### 手动触发
 
@@ -127,6 +127,65 @@ python scripts/main.py --generate-only
 > The following content is auto-generated. Do not edit manually. / 以下内容由脚本自动生成，请勿手动编辑。
 
 <!-- PAPERS_TABLE_START -->
+<details>
+<summary><b>📑 Paper Index / 论文目录</b></summary>
+
+### 2026 (1066 papers)
+- [2026 SaTML (62)](#papers-2026-satml)
+- [2026 NDSS (44)](#papers-2026-ndss)
+- [2026 ICLR (196)](#papers-2026-iclr)
+- [2026 CVPR (125)](#papers-2026-cvpr)
+- [2026 ACL (419)](#papers-2026-acl)
+- [2026 AAAI (220)](#papers-2026-aaai)
+
+### 2025 (2482 papers)
+- [2025 USENIX Security (57)](#papers-2025-usenix-security)
+- [2025 SaTML (52)](#papers-2025-satml)
+- [2025 S&P (34)](#papers-2025-s-p)
+- [2025 NeurIPS (855)](#papers-2025-neurips)
+- [2025 NDSS (27)](#papers-2025-ndss)
+- [2025 ICML (145)](#papers-2025-icml)
+- [2025 ICLR (488)](#papers-2025-iclr)
+- [2025 EMNLP (132)](#papers-2025-emnlp)
+- [2025 CVPR (93)](#papers-2025-cvpr)
+- [2025 CCS (56)](#papers-2025-ccs)
+- [2025 ACL (381)](#papers-2025-acl)
+- [2025 AAAI (162)](#papers-2025-aaai)
+
+### 2024 (1855 papers)
+- [2024 USENIX Security (58)](#papers-2024-usenix-security)
+- [2024 SaTML (33)](#papers-2024-satml)
+- [2024 S&P (57)](#papers-2024-s-p)
+- [2024 NeurIPS (602)](#papers-2024-neurips)
+- [2024 NDSS (21)](#papers-2024-ndss)
+- [2024 ICML (120)](#papers-2024-icml)
+- [2024 ICLR (303)](#papers-2024-iclr)
+- [2024 EMNLP (86)](#papers-2024-emnlp)
+- [2024 ECCV (77)](#papers-2024-eccv)
+- [2024 CVPR (99)](#papers-2024-cvpr)
+- [2024 CCS (56)](#papers-2024-ccs)
+- [2024 ACL (196)](#papers-2024-acl)
+- [2024 AAAI (147)](#papers-2024-aaai)
+
+### 2023 (1426 papers)
+- [2023 USENIX Security (49)](#papers-2023-usenix-security)
+- [2023 SaTML (39)](#papers-2023-satml)
+- [2023 S&P (30)](#papers-2023-s-p)
+- [2023 NeurIPS (493)](#papers-2023-neurips)
+- [2023 NDSS (13)](#papers-2023-ndss)
+- [2023 ICML (94)](#papers-2023-icml)
+- [2023 ICLR (247)](#papers-2023-iclr)
+- [2023 EMNLP (42)](#papers-2023-emnlp)
+- [2023 CVPR (99)](#papers-2023-cvpr)
+- [2023 CCS (31)](#papers-2023-ccs)
+- [2023 ACL (183)](#papers-2023-acl)
+- [2023 AAAI (106)](#papers-2023-aaai)
+
+</details>
+
+<a id="papers-2026-satml"></a>
+### 2026 · SaTML (62 papers)
+
 | Year | Conference | Title | Authors | Link |
 |------|------------|-------|---------|------|
 | 2026 | SaTML | Smudged Fingerprints: A Systematic Evaluation of the Robustness of AI Image Fingerprints | Kai Yao and Marc Juarez (University of Edinburgh) | [📖](https://arxiv.org/abs/2512.11771) |
@@ -191,6 +250,14 @@ python scripts/main.py --generate-only
 | 2026 | SaTML | Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs | Ahmed Salem, Andrew Paverd and Sahar Abdelnabi (Microsoft) | [📖](https://satml.org/2026/accepted-papers) |
 | 2026 | SaTML | Position: Research in Collaborative Learning Does Not Serve Cross-Silo Federated Learning in Practice | Kevin Kuo, Chhavi Yadav and Virginia Smith (Carnegie Mellon University) | [📖](https://satml.org/2026/accepted-papers) |
 | 2026 | SaTML | Position: Gaussian DP for Reporting Differential Privacy Guarantees in Machine Learning | Juan Felipe Gomez (Harvard University), Bogdan Kulynych (Lausanne University Hospital), Georgios Kaissis et al. | [📖](https://arxiv.org/abs/2503.10945) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2026-ndss"></a>
+### 2026 · NDSS (44 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2026 | NDSS | A Causal Perspective for Enhancing Jailbreak Attack and Defense. | Licheng Pan, Yunsheng Lu, Jiexi Liu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
 | 2026 | NDSS | A Hard-Label Black-Box Evasion Attack against ML-based Malicious Traffic Detection Systems. | Zixuan Liu, Yi Zhao, Zhuotao Liu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
 | 2026 | NDSS | A Unified Defense Framework Against Membership Inference in Federated Learning via Distillation and Contribution-Aware Aggregation. | Liwei Zhang, Linghui Li, Xiaotian Si et al. | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
@@ -235,6 +302,14 @@ python scripts/main.py --generate-only
 | 2026 | NDSS | When Mixnets Fail: Evaluating, Quantifying, and Mitigating the Impact of Adversarial Nodes in Mix Networks. | Mahdi Rahimi | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
 | 2026 | NDSS | WhiteCloak: How to Hold Anonymous Malicious Clients Accountable in Secure Aggregation? | Zhi Lu, Yongquan Cui, Songfeng Lu | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
 | 2026 | NDSS | ZKSL: Verifiable and Efficient Split Federated Learning via Asynchronous Zero-Knowledge Proofs. | Yixiao Zheng, Changzheng Wei, Xiaodong Qi et al. | [📖](https://dblp.org/db/conf/ndss/ndss2026.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2026-iclr"></a>
+### 2026 · ICLR (196 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2026 | ICLR | CheckMate! Watermarking Graph Diffusion Models in Polynomial Time | Roberto Gheda, Abele Mălan, Robert Birke et al. | [📖](https://openreview.net/forum?id=92fliNrbxY) |
 | 2026 | ICLR | Adversarial Robustness of Graph Transformers | Philipp Foth, Lukas Gosch, Simon Geisler et al. |  |
 | 2026 | ICLR | The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology | Aideen Fay, Inés García-Redondo, Qiquan Wang et al. | [📖](https://openreview.net/forum?id=v2PglvLLKT) |
@@ -431,6 +506,14 @@ python scripts/main.py --generate-only
 | 2026 | ICLR | Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models | Jiaming Zhang, CHE WANG, Yang Cao et al. | [📖](https://openreview.net/forum?id=5S6YTG9dL0) |
 | 2026 | ICLR | On Robustness of Vision-Language-Action Model against Multi-Modal Perturbations | Jianing Guo, Zhenhong Wu, Chang Tu et al. | [📖](https://openreview.net/forum?id=cS6xizdYD5) |
 | 2026 | ICLR | AEGIS: Adversarial Target-Guided Retention-Data-Free Robust Concept Erasure from Diffusion Models | Fengpeng Li, Kemou Li, Qizhou Wang et al. | [📖](https://openreview.net/forum?id=3y3hnL7KhS) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2026-cvpr"></a>
+### 2026 · CVPR (125 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2026 | CVPR | Towards Robust Vision Transformers: Path Dependency Analysis and a Simple Two-Stage Adversarial Training |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
 | 2026 | CVPR | Jailbreaking Vision-Language Models via Dissonance-Guided Suffix Optimization and Image-Phrase Injection |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
 | 2026 | CVPR | On the Role of Temporal Granularity in the Robustness of Spiking Neural Networks |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
@@ -556,6 +639,14 @@ python scripts/main.py --generate-only
 | 2026 | CVPR | Unleashing Vision-Language Semantics for Deepfake Video Detection |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
 | 2026 | CVPR | PECCVAI: Overcoming the Brittleness of AI Image Watermarking Under Visual Paraphrasing Attacks |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
 | 2026 | CVPR | Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models |  | [📖](https://openaccess.thecvf.com/CVPR2026?day=all) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2026-acl"></a>
+### 2026 · ACL (419 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2026 | ACL | Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models | Yifu Chen, Shengpeng Ji, Zhengqing Liu et al. | [📖](https://aclanthology.org/2026.acl-long.6/) |
 | 2026 | ACL | Parallel Universes, Parallel Languages: A Comprehensive Study on | Qianli Wang, Van Bach Nguyen, Yihong Liu et al. | [📖](https://aclanthology.org/2026.acl-long.12/) |
 | 2026 | ACL | Your Reasoning Model Knows What Counts: Self-Guided Chain-of-Thought Pruning for Efficient Reasoning | Zi-Ao Ma, Xian-Ling Mao, Tian Lan et al. | [📖](https://aclanthology.org/2026.acl-long.25/) |
@@ -975,6 +1066,14 @@ python scripts/main.py --generate-only
 | 2026 | ACL | Emotion Trajectory-aware Retrieval for | Hongyan Wu, Zhiliang Tian, Zhen Huang et al. | [📖](https://aclanthology.org/2026.findings-acl.2127/) |
 | 2026 | ACL | Dictionary Guided Sparse Logit Editing for Reliable Jailbreak Attacks | Shuaibiao Han, Ruiyang Ni, Zhiyu Yi et al. | [📖](https://aclanthology.org/2026.findings-acl.2137/) |
 | 2026 | ACL | More Agents Improve Math Problem Solving but Adversarial Robustness Gap Persists | Khashayar Alavi, Zhastay Yeltay, Lucie Flek et al. | [📖](https://aclanthology.org/2026.findings-acl.2158/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2026-aaai"></a>
+### 2026 · AAAI (220 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2026 | AAAI | Modulation-Based Backdoors: Leveraging Amplitude and Frequency Patterns to Attack Speaker Recognition. | Hanbo Cai, Pengcheng Zhang, Yan Xiao et al. | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
 | 2026 | AAAI | Transferable Backdoor Attacks for Code Models via Sharpness-Aware Adversarial Perturbation. | Shuyu Chang, Haiping Huang, Yanjun Zhang et al. | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
 | 2026 | AAAI | CHASE: Contextual History for Adaptive and Simple Exploitation in Large Language Model Jailbreaking. | Zhiqiang Hao, Chuanyi Li, Ye Fan et al. | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
@@ -1195,6 +1294,14 @@ python scripts/main.py --generate-only
 | 2026 | AAAI | Unveiling AI Safety in Fine-tuning Quantized Model. | Hai Le | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
 | 2026 | AAAI | Breaking Cross-View Associations: Byzantine Model Poisoning Attack against Vertical Federated Learning. | Jarin Tasneem | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
 | 2026 | AAAI | AgentGraph: Trace-to-Graph Platform for Interactive Analysis and Robustness Testing in Agentic AI Systems. | Zekun Wu, Seonglae Cho, Cristian E. Muñoz Villalobos et al. | [📖](https://dblp.org/db/conf/aaai/aaai2026.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-usenix-security"></a>
+### 2025 · USENIX Security (57 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | USENIX Security | Provably Robust Multi-bit Watermarking for AI-generated Text. | Wenjie Qu, Wengrui Zheng, Tianyang Tao et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
 | 2025 | USENIX Security | EmbedX: Embedding-Based Cross-Trigger Backdoor Attack Against Large Language Models. | Nan Yan, Yuqing Li, Xiong Wang et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
 | 2025 | USENIX Security | Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models. | Minkyoo Song, Hanna Kim, Jaehan Kim et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
@@ -1252,6 +1359,14 @@ python scripts/main.py --generate-only
 | 2025 | USENIX Security | Assuring Certified Database Utility in Privacy-Preserving Database Fingerprinting. | Mingyang Song, Zhongyun Hua, Yifeng Zheng et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
 | 2025 | USENIX Security | SOFT: Selective Data Obfuscation for Protecting LLM Fine-tuning against Membership Inference Attacks. | Kaiyuan Zhang, Siyuan Cheng, Hanxi Guo et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
 | 2025 | USENIX Security | JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation. | Shenyi Zhang, Yuchen Zhai, Keyan Guo et al. | [📖](https://dblp.org/db/conf/uss/uss2025.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-satml"></a>
+### 2025 · SaTML (52 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | SaTML | Adversarially Robust CLIP Models Can Induce Better (Robust) Perceptual Metrics | Francesco Croce (EPFL), Christian Schlarmann, Naman Deep Singh et al. | [📖](https://arxiv.org/abs/2502.11725) |
 | 2025 | SaTML | Attackers Can Do Better: Over- and Understated Factors of Model Stealing Attacks | Daryna Oliynyk, Rudolf Mayer (SBA Research), Andreas Rauber (TU Wien) 📃 Abstract 📚 Arxiv Machine learning (ML) models were shown to be vulnerable to different security attacks – including model stealing attacks et al. | [📖](https://arxiv.org/abs/2503.06188) |
 | 2025 | SaTML | Auditing Differential Privacy Guarantees Using Density Estimation | Antti Koskela, Jafar Mohammadi (Nokia Bell Labs) 📃 Abstract We present a novel method for accurately auditing the differential privacy (DP) guarantees of DP mechanisms. In particular, our solution is applicable to auditing DP guarantees of machine learning (ML) models. Previous auditing methods tightly capture the privacy guarantees of DP-SGD trained models in the white-box setting where the auditor has access to all intermediate models et al. | [📖](https://satml.org/2025/accepted-papers) |
@@ -1304,6 +1419,14 @@ python scripts/main.py --generate-only
 | 2025 | SaTML | SoK: On the Offensive Potential of AI | Saskia Laura Schröer, Giovanni Apruzzese (University of Liechtenstein), Soheil Human (Vienna University of Economics and Business) et al. | [📖](https://arxiv.org/abs/2412.18442) |
 | 2025 | SaTML | SoK: What Makes Private Learning Unfair? | Kai Yao, Marc Juarez (University of Edinburgh) 📃 Abstract 📚 Arxiv Differential privacy has emerged as the most studied framework for privacy-preserving machine learning. However, recent studies show that enforcing differential privacy guarantees can not only significantly degrade the utility of the model et al. | [📖](https://arxiv.org/abs/2501.14414) |
 | 2025 | SaTML | Position: Episodic memory in AI agents poses risks that should be studied and mitigated | Chad DeChant (Columbia University) 📃 Abstract 📚 Arxiv Most current AI models have little ability to store and later retrieve a record or representation of what they do. In human cognition, episodic memories play an important role in both recall of the past as well as planning for the future. The ability to form and use episodic memories would similarly enable a broad range of improved capabilities in an AI agent that interacts with and takes actions in the world. Researchers have begun directing more attention to developing memory abilities in AI models. It is therefore likely that models with such capability will be become widespread in the near future. This could in some ways contribute to making such AI agents safer by enabling users to better monitor, understand et al. | [📖](https://arxiv.org/abs/2501.11739) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-s-p"></a>
+### 2025 · S&P (34 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | S&P | Secure Transfer Learning: Training Clean Model Against Backdoor in Pre-Trained Encoder and Downstream Dataset. | Yechao Zhang, Yuxuan Zhou, Tianyu Li et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
 | 2025 | S&P | Modifier Unlocked: Jailbreaking Text-to-Image Models Through Prompts. | Shuofeng Liu, Mengyao Ma, Minhui Xue et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
 | 2025 | S&P | Fuzz-Testing Meets LLM-Based Agents: An Automated and Efficient Framework for Jailbreaking Text-to-Image Generation Models. | Yingkai Dong, Xiangtao Meng, Ning Yu et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
@@ -1338,6 +1461,14 @@ python scripts/main.py --generate-only
 | 2025 | S&P | EvilHarmony: Stealthy Adversarial Attacks Against Black-Box Speech Recognition Systems. | Xuejing Yuan, Jiangshan Zhang, Feng Guo et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
 | 2025 | S&P | Trust Nobody: Privacy-Preserving Proofs for Edited Photos with Your Laptop. | Pierpaolo Della Monica, Ivan Visconti, Andrea Vitaletti et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
 | 2025 | S&P | Eva: Efficient Privacy-Preserving Proof of Authenticity for Lossily Encoded Videos. | Chengru Zhang, Xiao Yang, David F. Oswald et al. | [📖](https://dblp.org/db/conf/sp/sp2025.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-neurips"></a>
+### 2025 · NeurIPS (855 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | NeurIPS | Tru-POMDP: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended POMDPs | Wenjing Tang, Xinyu He, Yongxi Huang et al. | [📖](https://openreview.net/forum?id=1GIQOV3NAj) |
 | 2025 | NeurIPS | Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment | Weixiang Zhao, Xingyu Sui, Yulin Hu et al. | [📖](https://openreview.net/forum?id=1V3Toke6XP) |
 | 2025 | NeurIPS | Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm | Yang Chen, Menglin Zou, Jiaqi Zhang et al. | [📖](https://openreview.net/forum?id=40M1uJl2GX) |
@@ -2193,6 +2324,14 @@ python scripts/main.py --generate-only
 | 2025 | NeurIPS | WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks | Ivan Evtimov, Arman Zharmagambetov, Aaron Grattafiori et al. | [📖](https://openreview.net/forum?id=Ip1cCUAllL) |
 | 2025 | NeurIPS | SonoGym: High Performance Simulation for Challenging Surgical Tasks with Robotic Ultrasound | Yunke Ao, Masoud Moghani, Mayank Mittal et al. | [📖](https://openreview.net/forum?id=SRStCEJ0Qu) |
 | 2025 | NeurIPS | Rethinking Evaluation of Infrared Small Target Detection | Youwei Pang, Xiaoqi Zhao, Lihe Zhang et al. | [📖](https://openreview.net/forum?id=MS1gqufmVu) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-ndss"></a>
+### 2025 · NDSS (27 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | NDSS | A Method to Facilitate Membership Inference Attacks in Deep Learning Models. | Zitao Chen, Karthik Pattabiraman | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
 | 2025 | NDSS | Black-box Membership Inference Attacks against Fine-tuned Diffusion Models. | Yan Pang, Tianhao Wang | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
 | 2025 | NDSS | CLIBE: Detecting Dynamic Backdoors in Transformer-based NLP Models. | Rui Zeng, Xi Chen, Yuwen Pu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
@@ -2220,6 +2359,14 @@ python scripts/main.py --generate-only
 | 2025 | NDSS | Siniel: Distributed Privacy-Preserving zkSNARK. | Yunbo Yang, Yuejia Cheng, Kailun Wang et al. | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
 | 2025 | NDSS | URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning. | Duanyi Yao, Songze Li, Xueluan Gong et al. | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
 | 2025 | NDSS | VoiceRadar: Voice Deepfake Detection using Micro-Frequency and Compositional Analysis. | Kavita Kumari, Maryam Abbasihafshejani, Alessandro Pegoraro et al. | [📖](https://dblp.org/db/conf/ndss/ndss2025.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-icml"></a>
+### 2025 · ICML (145 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | ICML | Optimal Fair Learning Robust to Adversarial Distribution Shift | Sushant Agarwal, Amit Deshpande, Rajmohan Rajaraman et al. | [📖](https://proceedings.mlr.press/v267/agarwal25b.html) |
 | 2025 | ICML | Explaining the role of Intrinsic Dimensionality in Adversarial Training | Enes Altinisik, Safa Messaoud, Husrev Taha Sencar et al. | [📖](https://proceedings.mlr.press/v267/altinisik25a.html) |
 | 2025 | ICML | Generalization and Robustness of the Tilted Empirical Risk | Gholamali Aminian, Amir R. Asadi, Tian Li et al. | [📖](https://proceedings.mlr.press/v267/aminian25a.html) |
@@ -2365,6 +2512,14 @@ python scripts/main.py --generate-only
 | 2025 | ICML | Position: AI Safety should prioritize the Future of Work | Sanchaita Hazra, Bodhisattwa Prasad Majumder, Tuhin Chakrabarty | [📖](https://proceedings.mlr.press/v267/hazra25a.html) |
 | 2025 | ICML | Position: AI Safety Must Embrace an Antifragile Perspective | Ming Jin, Hyunin Lee | [📖](https://proceedings.mlr.press/v267/jin25m.html) |
 | 2025 | ICML | Position: Trustworthy AI Agents Require the Integration of Large Language Models and Formal Methods | Yedi Zhang, Yufan Cai, Xinyue Zuo et al. | [📖](https://proceedings.mlr.press/v267/zhang25ds.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-iclr"></a>
+### 2025 · ICLR (488 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | ICLR | Directional Gradient Projection for Robust Fine-Tuning of Foundation Models | Chengyue Huang, Junjiao Tian, Brisa Maneechotesuwan et al. | [📖](https://openreview.net/forum?id=goBaGHLAdP) |
 | 2025 | ICLR | Federated Domain Generalization with Data-free On-server Matching Gradient | Binh Nguyen, Minh-Duong Nguyen, Jinsun Park et al. | [📖](https://openreview.net/forum?id=8TERgu1Lb2) |
 | 2025 | ICLR | AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents | Maksym Andriushchenko, Alexandra Souly, Mateusz Dziemian et al. | [📖](https://openreview.net/forum?id=AC5n7xHuR1) |
@@ -2853,6 +3008,14 @@ python scripts/main.py --generate-only
 | 2025 | ICLR | ConceptPrune: Concept Editing in Diffusion Models via Skilled Neuron Pruning | Ruchika Chavhan, Da Li, Timothy Hospedales | [📖](https://openreview.net/forum?id=kSdWcw5mkp) |
 | 2025 | ICLR | Deep MMD Gradient Flow without adversarial training | Alexandre Galashov, Valentin De Bortoli, Arthur Gretton | [📖](https://openreview.net/forum?id=Pf85K2wtz8) |
 | 2025 | ICLR | Exploring The Forgetting in Adversarial Training: A Novel Method for Enhancing Robustness | Xianglu Wang, Hu Ding | [📖](https://openreview.net/forum?id=fjPOt8QlqQ) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-emnlp"></a>
+### 2025 · EMNLP (132 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | EMNLP | Automating Steering for Safe Multimodal Large Language Models | Lyucheng Wu, Mengru Wang, Ziwen Xu et al. | [📖](https://aclanthology.org/2025.emnlp-main.41/) |
 | 2025 | EMNLP | Parallel Continuous Chain-of-Thought with Jacobi Iteration | Haoyi Wu, Zhihao Teng, Kewei Tu | [📖](https://aclanthology.org/2025.emnlp-main.47/) |
 | 2025 | EMNLP | Refusal-Aware Red Teaming: Exposing Inconsistency in Safety Evaluations | Yongkang Chen, Xiaohu Du, Xiaotian Zou et al. | [📖](https://aclanthology.org/2025.emnlp-main.49/) |
@@ -2985,6 +3148,14 @@ python scripts/main.py --generate-only
 | 2025 | EMNLP | Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning | Ruizhe Chen, Tianze Luo, Zhiting Fan et al. | [📖](https://aclanthology.org/2025.emnlp-industry.66/) |
 | 2025 | EMNLP | From Feedback to Checklists: Grounded Evaluation of | Karen Zhou, John Michael Giorgi, Pranav Mani et al. | [📖](https://aclanthology.org/2025.emnlp-industry.104/) |
 | 2025 | EMNLP | Spoken Conversational Agents with Large Language Models | Huck Yang, Andreas Stolcke, Larry P. Heck | [📖](https://aclanthology.org/2025.emnlp-tutorials.3/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-cvpr"></a>
+### 2025 · CVPR (93 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | CVPR | Gain from Neighbors: Boosting Model Robustness in the Wild via Adversarial Perturbations Toward Neighboring Classes |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
 | 2025 | CVPR | SATA: Spatial Autocorrelation Token Analysis for Enhancing the Robustness of Vision Transformers |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
 | 2025 | CVPR | Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
@@ -3078,6 +3249,14 @@ python scripts/main.py --generate-only
 | 2025 | CVPR | Detecting Adversarial Data Using Perturbation Forgery |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
 | 2025 | CVPR | D^3: Scaling Up Deepfake Detection by Learning from Discrepancy |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
 | 2025 | CVPR | Jailbreaking the Non-Transferable Barrier via Test-Time Data Disguising |  | [📖](https://openaccess.thecvf.com/CVPR2025?day=all) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-ccs"></a>
+### 2025 · CCS (56 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | CCS | ZORRO: Zero-Knowledge Robustness and Privacy for Split Learning. | Nojan Sheybani, Alessandro Pegoraro, Jonathan Knauer et al. | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
 | 2025 | CCS | LZKSA: Lattice-Based Special Zero-Knowledge Proofs for Secure Aggregation's Input Verification. | Zhi Lu, Songfeng Lu | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
 | 2025 | CCS | Split Unlearning. | Yanna Jiang, Guangsheng Yu, Qin Wang et al. | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
@@ -3134,6 +3313,14 @@ python scripts/main.py --generate-only
 | 2025 | CCS | Exploring the Janus Face of Synthetic Images: From Privacy-secure Biometrics Applications to Deepfake Detection for Misinformation-Free Social Networks. | Tanusree Ghosh | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
 | 2025 | CCS | ARTMAN '25: Third Workshop on Recent Advances in Resilient and Trustworthy MAchine learning-driveN systems. | Gregory Blanc, Takeshi Takahashi, Zonghua Zhang | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
 | 2025 | CCS | 3D-Sec '25: The 1st ACM Workshop on Deepfake, Deception, and Disinformation Security. | Simon S. Woo, Shahroz Tariq, Sharif Abuadbba et al. | [📖](https://dblp.org/db/conf/ccs/ccs2025.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-acl"></a>
+### 2025 · ACL (381 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | ACL | Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients | Jabin Koo, Minwoo Jang, Jungseul Ok | [📖](https://aclanthology.org/2025.acl-long.19/) |
 | 2025 | ACL | Evaluation of | Aneta Zugecova, Dominik Macko, Ivan Srba et al. | [📖](https://aclanthology.org/2025.acl-long.38/) |
 | 2025 | ACL | Re-identification of De-identified Documents with Autoregressive Infilling | Lucas Georges Gabriel Charpentier, Pierre Lison | [📖](https://aclanthology.org/2025.acl-long.60/) |
@@ -3515,6 +3702,14 @@ python scripts/main.py --generate-only
 | 2025 | ACL | Reasoning | Jintao Liang, Sugang, Huifeng Lin et al. | [📖](https://aclanthology.org/2025.findings-ijcnlp.122/) |
 | 2025 | ACL | Mixed Signals: Understanding Model Disagreement in Multimodal Empathy Detection | Maya Srikanth, Run Chen, Julia Hirschberg | [📖](https://aclanthology.org/2025.findings-ijcnlp.124/) |
 | 2025 | ACL | Uncovering Cultural Representation Disparities in Vision-Language Models | Ram Mohan Rao Kadiyala, Siddhant Gupta, Jebish Purbey et al. | [📖](https://aclanthology.org/2025.findings-ijcnlp.131/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2025-aaai"></a>
+### 2025 · AAAI (162 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2025 | AAAI | DF-MIA: A Distribution-Free Membership Inference Attack on Fine-Tuned Large Language Models. | Zhiheng Huang, Yannan Liu, Daojing He et al. | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
 | 2025 | AAAI | IWRN: A Robust Blind Watermarking Method for Artwork Image Copyright Protection Against Noise Attack. | Feifei Kou, Yuhan Yao, Siyuan Yao et al. | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
 | 2025 | AAAI | Simulate and Eliminate: Revoke Backdoors for Generative Large Language Models. | Haoran Li, Yulin Chen, Zihao Zheng et al. | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
@@ -3677,6 +3872,14 @@ python scripts/main.py --generate-only
 | 2025 | AAAI | LLM Stinger: Jailbreaking LLMs Using RL Fine-Tuned LLMs (Student Abstract). | Piyush Jha, Arnav Arora, Vijay Ganesh | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
 | 2025 | AAAI | Does Knowing More Make You Easier to Trick? Adversarial Robustness of Multi-Target Regression. | Soyon Choi | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
 | 2025 | AAAI | GODDS: The Global Online Deepfake Detection System. | Marco Postiglione, Julian Baldwin, Natalia Denisenko et al. | [📖](https://dblp.org/db/conf/aaai/aaai2025.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-usenix-security"></a>
+### 2024 · USENIX Security (58 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | USENIX Security | AttackGNN: Red-Teaming GNNs in Hardware Security Using Reinforcement Learning. | Vasudev Gohil, Satwik Patnaik, Dileep Kalathil et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
 | 2024 | USENIX Security | Improving the Ability of Thermal Radiation Based Hardware Trojan Detection. | Ting Su, Yaohua Wang, Shi Xu et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
 | 2024 | USENIX Security | FAMOS: Robust Privacy-Preserving Authentication on Payment Apps via Federated Multi-Modal Contrastive Learning. | Yifeng Cai, Ziqi Zhang, Jiaping Gui et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
@@ -3735,6 +3938,14 @@ python scripts/main.py --generate-only
 | 2024 | USENIX Security | AE-Morpher: Improve Physical Robustness of Adversarial Objects against LiDAR-based Detectors via Object Reconstruction. | Shenchen Zhu, Yue Zhao, Kai Chen et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
 | 2024 | USENIX Security | EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection. | Shigang Liu, Di Cao, Junae Kim et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
 | 2024 | USENIX Security | A Wolf in Sheep's Clothing: Practical Black-box Adversarial Attacks for Evading Learning-based Windows Malware Detection in the Wild. | Xiang Ling, Zhiyu Wu, Bin Wang et al. | [📖](https://dblp.org/db/conf/uss/uss2024.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-satml"></a>
+### 2024 · SaTML (33 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | SaTML | Probabilistic Dataset Reconstruction from Interpretable Models | Julien Ferry (École Polytechnique de Montréal, Université de Montréal), Ulrich Aïvodji (École de technologie supérieure et al. | [📖](https://openreview.net/forum?id=urEMkXtnoe) |
 | 2024 | SaTML | Backdoor Attack on Un-paired Medical Image-Text Pretrained Models: A Pilot Study on MedCLIP | Ruinan Jin (University of British Columbia), Chun-Yin Huang (University of British Columbia), Chenyu You (Yale University) et al. | [📖](https://openreview.net/forum?id=YymNvIkmKR) |
 | 2024 | SaTML | Improving Privacy-Preserving Vertical Federated Learning by Efficient Communication with ADMM | Chulin Xie (University of Illinois, Urbana Champaign), Pin-Yu Chen (International Business Machines) et al. | [📖](https://openreview.net/forum?id=Xu10VyVnSE) |
@@ -3768,6 +3979,14 @@ python scripts/main.py --generate-only
 | 2024 | SaTML | Understanding, Uncovering, and Mitigating the Causes of Inference Slowdown for Language Models | Kamala Varma (University of Maryland, College Park), Arda Numanoğlu (Middle East Technical University) et al. | [📖](https://openreview.net/forum?id=homi48OtHu) |
 | 2024 | SaTML | The Devil's Advocate: Shattering the Illusion of Unexploitable Data using Diffusion Models | Hadi Mohaghegh Dolatabadi (University of Melbourne), Sarah Monazam Erfani (The University of Melbourne), Christopher Leckie (The University of Melbourne) | [📖](https://openreview.net/forum?id=H2aMtyFhQh) |
 | 2024 | SaTML | Under manipulations, are there AI models harder to audit? | Augustin Godinot (Université Rennes I), Gilles Tredan (LAAS / CNRS), Erwan Le Merrer (INRIA) et al. | [📖](https://openreview.net/forum?id=Q40m3Gcsd9) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-s-p"></a>
+### 2024 · S&P (57 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | S&P | AVA: Inconspicuous Attribute Variation-based Adversarial Attack bypassing DeepFake Detection. | Xiangtao Meng, Li Wang, Shanqing Guo et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
 | 2024 | S&P | An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape. | Sifat Muhammad Abdullah, Aravind Cheruvu, Shravya Kanchi et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
 | 2024 | S&P | DP-Auditorium: A Large-Scale Library for Auditing Differential Privacy. | William Kong, Andrés Muñoz Medina, Mónica Ribero et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
@@ -3825,6 +4044,14 @@ python scripts/main.py --generate-only
 | 2024 | S&P | Please Tell Me More: Privacy Impact of Explainability through the Lens of Membership Inference Attack. | Han Liu, Yuhao Wu, Zhiyuan Yu et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
 | 2024 | S&P | From Individual Computation to Allied Optimization: Remodeling Privacy-Preserving Neural Inference with Function Input Tuning. | Qiao Zhang, Tao Xiang, Chunsheng Xin et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
 | 2024 | S&P | Protecting Label Distribution in Cross-Silo Federated Learning. | Yangfan Jiang, Xinjian Luo, Yuncheng Wu et al. | [📖](https://dblp.org/db/conf/sp/sp2024.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-neurips"></a>
+### 2024 · NeurIPS (602 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | NeurIPS | Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks | Andy Zhou, Bo Li, Haohan Wang | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/46ed503889ab232c21c1162340ee17b2-Abstract-Conference.html) |
 | 2024 | NeurIPS | A Structure-Aware Framework for Learning Device Placements on Computation Graphs | Shukai Duan, Heng Ping, Nikos Kanakaris et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/94bd1b8c906494bada774096bd0fdd73-Abstract-Conference.html) |
 | 2024 | NeurIPS | Toward Efficient Inference for Mixture of Experts | Haiyang Huang, Newsha Ardalani, Anna Sun et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/98bf3b8505c611ac21055dd9d355c66e-Abstract-Conference.html) |
@@ -4427,6 +4654,14 @@ python scripts/main.py --generate-only
 | 2024 | NeurIPS | Learning-Augmented Algorithms with Explicit Predictors | Marek Elias, Haim Kaplan, Yishay Mansour et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b1a72c79ac7512df8d7b573f38143ac4-Abstract-Conference.html) |
 | 2024 | NeurIPS | Scanning Trojaned Models Using Out-of-Distribution Samples | Hossein Mirzaei, Ali Ansari, Bahar Dibaei Nia et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ef52fd1e24634cb8f7003ebbfb3644d9-Abstract-Conference.html) |
 | 2024 | NeurIPS | Federated Online Prediction from Experts with Differential Privacy: Separations and Regret Speed-ups | Fengyu Gao, Ruiquan Huang, Jing Yang | [📖](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e3490ed7541c826d9156c322c910e41b-Abstract-Conference.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-ndss"></a>
+### 2024 · NDSS (21 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | NDSS | CrowdGuard: Federated Backdoor Detection in Federated Learning. | Phillip Rieger, Torsten Krauß, Markus Miettinen et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
 | 2024 | NDSS | Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack. | Hui Xia, Rui Zhang, Zi Kang et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
 | 2024 | NDSS | Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time. | Xinfeng Li, Chen Yan, Xuancun Lu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
@@ -4448,6 +4683,14 @@ python scripts/main.py --generate-only
 | 2024 | NDSS | Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data. | Gorka Abad, Oguzhan Ersoy, Stjepan Picek et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
 | 2024 | NDSS | SSL-WM: A Black-Box Watermarking Approach for Encoders Pre-trained by Self-Supervised Learning. | Peizhuo Lv, Pan Li, Shenchen Zhu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
 | 2024 | NDSS | TextGuard: Provable Defense against Backdoor Attacks on Text Classification. | Hengzhi Pei, Jinyuan Jia, Wenbo Guo et al. | [📖](https://dblp.org/db/conf/ndss/ndss2024.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-icml"></a>
+### 2024 · ICML (120 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | ICML | Revisiting Character-level Adversarial Attacks for Language Models | Elias Abad Rocamora, Yongtao Wu, Fanghui Liu et al. | [📖](https://proceedings.mlr.press/v235/abad-rocamora24a.html) |
 | 2024 | ICML | CosPGD: an efficient white-box adversarial attack for pixel-wise prediction tasks | Shashank Agnihotri, Steffen Jung, Margret Keuper | [📖](https://proceedings.mlr.press/v235/agnihotri24b.html) |
 | 2024 | ICML | WAVES: Benchmarking the Robustness of Image Watermarks | Bang An, Mucong Ding, Tahseen Rabbani et al. | [📖](https://proceedings.mlr.press/v235/an24a.html) |
@@ -4568,6 +4811,14 @@ python scripts/main.py --generate-only
 | 2024 | ICML | Towards Efficient Training and Evaluation of Robust Models against $l_0$ Bounded Adversarial Perturbations | Xuyang Zhong, Yixiao Huang, Chen Liu | [📖](https://proceedings.mlr.press/v235/zhong24c.html) |
 | 2024 | ICML | Attack-free Evaluating and Enhancing Adversarial Robustness on Categorical Data | Yujun Zhou, Yufei Han, Haomin Zhuang et al. | [📖](https://proceedings.mlr.press/v235/zhou24i.html) |
 | 2024 | ICML | RAUCA: A Novel Physical Adversarial Attack on Vehicle Detectors via Robust and Accurate Camouflage Generation | Jiawei Zhou, Linye Lyu, Daojing He et al. | [📖](https://proceedings.mlr.press/v235/zhou24n.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-iclr"></a>
+### 2024 · ICLR (303 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | ICLR | GNNCert: Deterministic Certification of Graph Neural Networks against Adversarial Perturbations | Zaishuo Xia, Han Yang, Binghui Wang et al. | [📖](https://openreview.net/forum?id=IGzaH538fz) |
 | 2024 | ICLR | Learning to Compose: Improving Object Centric Learning by Injecting Compositionality | Whie Jung, Jaehoon Yoo, Sungjin Ahn et al. | [📖](https://openreview.net/forum?id=HT2dAhh4uV) |
 | 2024 | ICLR | Towards Poisoning Fair Representations | Tianci Liu, Haoyu Wang, Feijie Wu et al. | [📖](https://openreview.net/forum?id=YLJs4mKJCF) |
@@ -4871,6 +5122,14 @@ python scripts/main.py --generate-only
 | 2024 | ICLR | INViTE: INterpret and Control Vision-Language Models with Text Explanations | Haozhe Chen, Junfeng Yang, Carl Vondrick et al. | [📖](https://openreview.net/forum?id=5iENGLEJKG) |
 | 2024 | ICLR | SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer | Yuhta Takida, Masaaki Imaizumi, Takashi Shibuya et al. | [📖](https://openreview.net/forum?id=eiF7TU1E8E) |
 | 2024 | ICLR | Large Language Models Are Not Robust Multiple Choice Selectors | Chujie Zheng, Hao Zhou, Fandong Meng et al. | [📖](https://openreview.net/forum?id=shr9PXz7T0) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-emnlp"></a>
+### 2024 · EMNLP (86 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | EMNLP | Impeding | Saiful Islam Salim, Rubin Yuchan Yang, Alexander Cooper et al. | [📖](https://aclanthology.org/2024.emnlp-main.27/) |
 | 2024 | EMNLP | Evaluating the Instruction-Following Robustness of Large Language Models to Prompt Injection | Zekun Li, Baolin Peng, Pengcheng He et al. | [📖](https://aclanthology.org/2024.emnlp-main.33/) |
 | 2024 | EMNLP | Overcome Noise and Bias: Segmentation-Aided Multi-Granularity Denoising and Debiasing for Enhanced Quarduples Extraction in Dialogue | Xianlong Luo, Meng Yang, Yihao Wang | [📖](https://aclanthology.org/2024.emnlp-main.49/) |
@@ -4957,6 +5216,14 @@ python scripts/main.py --generate-only
 | 2024 | EMNLP | A Hassle-free Algorithm for Strong Differential Privacy in Federated Learning Systems | Hugh Brendan McMahan, Zheng Xu, Yanxiang Zhang | [📖](https://aclanthology.org/2024.emnlp-industry.64/) |
 | 2024 | EMNLP | Prompt Leakage effect and mitigation strategies for multi-turn | Divyansh Agarwal, Alexander Fabbri, Ben Risher et al. | [📖](https://aclanthology.org/2024.emnlp-industry.94/) |
 | 2024 | EMNLP | Improving Retrieval in Sponsored Search by Leveraging Query Context Signals | Akash Kumar Mohankumar, Gururaj K, Gagan Madan et al. | [📖](https://aclanthology.org/2024.emnlp-industry.109/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-eccv"></a>
+### 2024 · ECCV (77 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | ECCV | Adversarially Robust Distillation by Reducing the Student-Teacher Variance Gap | Junhao Dong, Piotr Koniusz*, Junxi Chen et al. | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/499_ECCV_2024_paper.php) |
 | 2024 | ECCV | FLAT: Flux-aware Imperceptible Adversarial Attacks on 3D Point Clouds | Keke Tang, Lujie Huang, Weilong Peng* et al. | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/951_ECCV_2024_paper.php) |
 | 2024 | ECCV | Learning Differentially Private Diffusion Models via Stochastic Adversarial Distillation | Bochao Liu, Pengju Wang, Shiming Ge* | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1066_ECCV_2024_paper.php) |
@@ -5034,6 +5301,14 @@ python scripts/main.py --generate-only
 | 2024 | ECCV | SSL-Cleanse: Trojan Detection and Mitigation in Self-Supervised Learning | Mengxin Zheng*, Jiaqi Xue, Zihao Wang et al. | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11933_ECCV_2024_paper.php) |
 | 2024 | ECCV | Causal Subgraphs and Information Bottlenecks: Redefining OOD Robustness in Graph Neural Networks | Weizhi An, Wenliang Zhong, Feng Jiang et al. | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/12325_ECCV_2024_paper.php) |
 | 2024 | ECCV | LaWa: Using Latent Space for In-Generation Image Watermarking | Ahmad Rezaei*, Mohammad Akbari*, Saeed Ranjbar Alvar et al. | [📖](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/12460_ECCV_2024_paper.php) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-cvpr"></a>
+### 2024 · CVPR (99 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | CVPR | Focus on Hiders: Exploring Hidden Threats for Enhancing Adversarial Training |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
 | 2024 | CVPR | Defense without Forgetting: Continual Adversarial Defense with Anisotropic & Isotropic Pseudo Replay |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
 | 2024 | CVPR | Transferable Structural Sparse Adversarial Attack Via Exact Group Sparsity Training |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
@@ -5133,6 +5408,14 @@ python scripts/main.py --generate-only
 | 2024 | CVPR | Ensemble Diversity Facilitates Adversarial Transferability |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
 | 2024 | CVPR | BrainWash: A Poisoning Attack to Forget in Continual Learning |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
 | 2024 | CVPR | Data Poisoning based Backdoor Attacks to Contrastive Learning |  | [📖](https://openaccess.thecvf.com/CVPR2024?day=all) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-ccs"></a>
+### 2024 · CCS (56 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | CCS | μCFI: Formal Verification of Microarchitectural Control-flow Integrity. | Katharina Ceesay-Seitz, Flavien Solt, Kaveh Razavi | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
 | 2024 | CCS | Camel: Communication-Efficient and Maliciously Secure Federated Learning in the Shuffle Model of Differential Privacy. | Shuangqing Xu, Yifeng Zheng, Zhongyun Hua | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
 | 2024 | CCS | S2NeRF: Privacy-preserving Training Framework for NeRF. | Bokang Zhang, Yanglin Zhang, Zhikun Zhang et al. | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
@@ -5189,6 +5472,14 @@ python scripts/main.py --generate-only
 | 2024 | CCS | Poster: Protection against Source Inference Attacks in Federated Learning using Unary Encoding and Shuffling. | Andreas Athanasiou, Kangsoo Jung, Catuscia Palamidessi | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
 | 2024 | CCS | Novel Privacy Attacks and Defenses Against Neural Networks. | Sayanton V. Dibbo | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
 | 2024 | CCS | Privacy-Preserving Graph Analysis. | Bhavish Raj Gopal | [📖](https://dblp.org/db/conf/ccs/ccs2024.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-acl"></a>
+### 2024 · ACL (196 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | ACL | A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation | Kai Chen, Ye Wang, Yitong Li et al. | [📖](https://aclanthology.org/2024.acl-long.8/) |
 | 2024 | ACL | Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation | Shicheng Xu, Liang Pang, Mo Yu et al. | [📖](https://aclanthology.org/2024.acl-long.9/) |
 | 2024 | ACL | Answer is All You Need: Instruction-following Text Embedding via Answering the Question | Letian Peng, Yuwei Zhang, Zilong Wang et al. | [📖](https://aclanthology.org/2024.acl-long.27/) |
@@ -5385,6 +5676,14 @@ python scripts/main.py --generate-only
 | 2024 | ACL | Unraveling the Truth: Do | Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella et al. | [📖](https://aclanthology.org/2024.findings-emnlp.973/) |
 | 2024 | ACL | Improving Adversarial Robustness in Vision-Language Models with Architecture and Prompt Design | Rishika Bhagwatkar, Shravan Nayak, Pouya Bashivan et al. | [📖](https://aclanthology.org/2024.findings-emnlp.990/) |
 | 2024 | ACL | Robust | Kristian Kuznetsov, Eduard Tulchinskii, Laida Kushnareva et al. | [📖](https://aclanthology.org/2024.findings-emnlp.992/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2024-aaai"></a>
+### 2024 · AAAI (147 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2024 | AAAI | Adversarial Robust Safeguard for Evading Deep Facial Manipulation. | Jiazhi Guan, Yi Zhao, Zhuoer Xu et al. | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
 | 2024 | AAAI | Inspecting Prediction Confidence for Detecting Black-Box Backdoor Attacks. | Tong Wang, Yuan Yao, Feng Xu et al. | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
 | 2024 | AAAI | Adversarial Socialbots Modeling Based on Structural Information Principles. | Xianghua Zeng, Hao Peng, Angsheng Li | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
@@ -5532,6 +5831,14 @@ python scripts/main.py --generate-only
 | 2024 | AAAI | Evaluating AI Red Teaming's Readiness to Address Environmental Harms: A Thematic Analysis of LLM Discourse. | Amy Au | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
 | 2024 | AAAI | Validation, Robustness, and Accuracy of Perturbation-Based Sensitivity Analysis Methods for Time-Series Deep Learning Models. | Zhengguang Wang | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
 | 2024 | AAAI | Robustness and Visual Explanation for Black Box Image, Video, and ECG Signal Classification with Reinforcement Learning. | Soumyendu Sarkar, Ashwin Ramesh Babu, Sajad Mousavi et al. | [📖](https://dblp.org/db/conf/aaai/aaai2024.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-usenix-security"></a>
+### 2023 · USENIX Security (49 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | USENIX Security | Squint Hard Enough: Attacking Perceptual Hashing with Adversarial Machine Learning. | Jonathan Prokos, Neil Fendley, Matthew Green et al. | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
 | 2023 | USENIX Security | KENKU: Towards Efficient and Stealthy Black-box Adversarial Attacks against ASR Systems. | Xinghui Wu, Shiqing Ma, Chao Shen et al. | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
 | 2023 | USENIX Security | Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing. | Mingli Wu, Tsz Hon Yuen | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
@@ -5581,6 +5888,14 @@ python scripts/main.py --generate-only
 | 2023 | USENIX Security | TAP: Transparent and Privacy-Preserving Data Services. | Daniël Reijsbergen, Aung Maw, Zheng Yang et al. | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
 | 2023 | USENIX Security | Trojan Source: Invisible Vulnerabilities. | Nicholas Boucher, Ross Anderson | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
 | 2023 | USENIX Security | Jinn: Hijacking Safe Programs with Trojans. | Komail Dharsee, John Criswell | [📖](https://dblp.org/db/conf/uss/uss2023.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-satml"></a>
+### 2023 · SaTML (39 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | SaTML | SoK: Harnessing Prior Knowledge for Explainable Machine Learning: An Overview | Katharina Beckh (Fraunhofer IAIS, Germany), Sebastian Müller (University of Bonn et al. | [📖](https://openreview.net/forum?id=1KE7TlU4bOt) |
 | 2023 | SaTML | Reducing Certified Regression to Certified Classification for General Poisoning Attacks | Zayd Hammoudeh (University of Oregon, USA) and Daniel Lowd (University of Oregon, USA) | [📖](https://openreview.net/forum?id=PWf0OsvK43F) |
 | 2023 | SaTML | Theoretical Limits of Provable Security Against Model Extraction by Efficient Observational Defenses | Ari Karchmer (Boston University) | [📖](https://openreview.net/forum?id=gKFGYd3GEaL) |
@@ -5620,6 +5935,14 @@ python scripts/main.py --generate-only
 | 2023 | SaTML | ModelPred: A Framework for Predicting Trained Model from Training Data | Yingyan Zeng (Virginia Tech, USA), Jiachen T. Wang (Princeton University et al. | [📖](https://openreview.net/forum?id=I03uWXMi6oD) |
 | 2023 | SaTML | Counterfactual Sentence Generation with Plug-and-Play Perturbation | Nishtha Madaan (IBM Research India; Indian Institute of Technology), Diptikalyan Saha (IBM Research India), and Srikanta Bedathur (Indian Institute of Technology) | [📖](https://openreview.net/forum?id=mjoSXvVfj4) |
 | 2023 | SaTML | Position: Tensions Between the Proxies of Human Values in AI | Teresa Datta (Arthur), Daniel Nissani (Arthur), Max Cembalest (Arthur) et al. | [📖](https://openreview.net/forum?id=7EjikkMkIl) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-s-p"></a>
+### 2023 · S&P (30 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | S&P | Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations. | Endres Puschner, Thorben Moos, Steffen Becker et al. | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
 | 2023 | S&P | Attitudes towards Client-Side Scanning for CSAM, Terrorism, Drug Trafficking, Drug Use and Tax Evasion in Germany. | Lisa Geierhaas, Fabian Otto, Maximilian Häring et al. | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
 | 2023 | S&P | Accuracy-Privacy Trade-off in Deep Ensemble: A Membership Inference Perspective. | Shahbaz Rezaei, Zubair Shafiq, Xin Liu | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
@@ -5650,6 +5973,14 @@ python scripts/main.py --generate-only
 | 2023 | S&P | BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts. | Xianrui Qin, Shimin Pan, Arash Mirzaei et al. | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
 | 2023 | S&P | From 5G Sniffing to Harvesting Leakages of Privacy-Preserving Messengers. | Norbert Ludant, Pieter Robyns, Guevara Noubir | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
 | 2023 | S&P | MagBackdoor: Beware of Your Loudspeaker as A Backdoor For Magnetic Injection Attacks. | Tiantian Liu, Feng Lin, Zhangsen Wang et al. | [📖](https://dblp.org/db/conf/sp/sp2023.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-neurips"></a>
+### 2023 · NeurIPS (493 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | NeurIPS | Estimating Causal Effects Identifiable from a Combination of Observations and Experiments | Yonghan Jung, Ivan Diaz, Jin Tian et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/917d55788726131e3bb21bf39d477f58-Abstract-Conference.html) |
 | 2023 | NeurIPS | On the Role of Randomization in Adversarially Robust Classification | Lucas Gnecco Heredia, Muni Sreenivas Pydi, Laurent Meunier et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fa9755043814e7f08d859a286bb83c35-Abstract-Conference.html) |
 | 2023 | NeurIPS | On the Robustness of Removal-Based Feature Attributions | Chris Lin, Ian Covert, Su-In Lee | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fbbda4e85a6641bf425be3a6cfd84d20-Abstract-Conference.html) |
@@ -6143,6 +6474,14 @@ python scripts/main.py --generate-only
 | 2023 | NeurIPS | Domain Watermark: Effective and Harmless Dataset Copyright Protection is Closed at Hand | Junfeng Guo, Yiming Li, Lixu Wang et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/aa6287ca31ae1474ea802342d0c8ba63-Abstract-Conference.html) |
 | 2023 | NeurIPS | Re-Think and Re-Design Graph Neural Networks in Spaces of Continuous Graph Diffusion Functionals | Tingting Dan, Jiaqi Ding, Ziquan Wei et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b9fd027eb16434174b8bb3d3b18110af-Abstract-Conference.html) |
 | 2023 | NeurIPS | Revisiting Out-of-distribution Robustness in NLP: Benchmarks, Analysis, and LLMs Evaluations | Lifan Yuan, Yangyi Chen, Ganqu Cui et al. | [📖](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b6b5f50a2001ad1cbccca96e693c4ab4-Abstract-Datasets_and_Benchmarks.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-ndss"></a>
+### 2023 · NDSS (13 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | NDSS | Backdoor Attacks Against Dataset Distillation. | Yugeng Liu, Zheng Li, Michael Backes et al. | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
 | 2023 | NDSS | REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service. | Wenjie Qu, Jinyuan Jia, Neil Zhenqiang Gong | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
 | 2023 | NDSS | Adversarial Robustness for Tabular Data through Cost and Utility Awareness. | Klim Kireev, Bogdan Kulynych, Carmela Troncoso | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
@@ -6156,6 +6495,14 @@ python scripts/main.py --generate-only
 | 2023 | NDSS | Him of Many Faces: Characterizing Billion-scale Adversarial and Benign Browser Fingerprints on Commercial Websites. | Shujiang Wu, Pengfei Sun, Yao Zhao et al. | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
 | 2023 | NDSS | BEAGLE: Forensics of Deep Learning Backdoor Attack for Better Defense. | Siyuan Cheng, Guanhong Tao, Yingqi Liu et al. | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
 | 2023 | NDSS | Privacy-Preserving Database Fingerprinting. | Tianxi Ji, Erman Ayday, Emre Yilmaz et al. | [📖](https://dblp.org/db/conf/ndss/ndss2023.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-icml"></a>
+### 2023 · ICML (94 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | ICML | BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming | Steven Adams, Andrea Patane, Morteza Lahijanian et al. | [📖](https://proceedings.mlr.press/v202/adams23a.html) |
 | 2023 | ICML | The Saddle-Point Method in Differential Privacy | Wael Alghamdi, Juan Felipe Gomez, Shahab Asoodeh et al. | [📖](https://proceedings.mlr.press/v202/alghamdi23a.html) |
 | 2023 | ICML | On the Privacy-Robustness-Utility Trilemma in Distributed Learning | Youssef Allouah, Rachid Guerraoui, Nirupam Gupta et al. | [📖](https://proceedings.mlr.press/v202/allouah23a.html) |
@@ -6250,6 +6597,14 @@ python scripts/main.py --generate-only
 | 2023 | ICML | Phase-aware Adversarial Defense for Improving Adversarial Robustness | Dawei Zhou, Nannan Wang, Heng Yang et al. | [📖](https://proceedings.mlr.press/v202/zhou23m.html) |
 | 2023 | ICML | Learning Unforeseen Robustness from Out-of-distribution Data Using Equivariant Domain Translator | Sicheng Zhu, Bang An, Furong Huang et al. | [📖](https://proceedings.mlr.press/v202/zhu23a.html) |
 | 2023 | ICML | Label Distributionally Robust Losses for Multi-class Classification: Consistency, Robustness and Adaptivity | Dixian Zhu, Yiming Ying, Tianbao Yang | [📖](https://proceedings.mlr.press/v202/zhu23o.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-iclr"></a>
+### 2023 · ICLR (247 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | ICLR | Learning Fast and Slow for Online Time Series Forecasting | Quang Pham, Chenghao Liu, Doyen Sahoo et al. | [📖](https://openreview.net/forum?id=q-PbpHD3EOk) |
 | 2023 | ICLR | How robust is unsupervised representation learning to distribution shift? | Yuge Shi, Imant Daunhawer, Julia E Vogt et al. | [📖](https://openreview.net/forum?id=LiXDW7CF94J) |
 | 2023 | ICLR | Distilling Cognitive Backdoor Patterns within an Image | Hanxun Huang, Xingjun Ma, Sarah Erfani et al. | [📖](https://openreview.net/forum?id=S3D9NLzjnQ5) |
@@ -6497,6 +6852,14 @@ python scripts/main.py --generate-only
 | 2023 | ICLR | Robust and Controllable Object-Centric Learning through Energy-based Models | Ruixiang ZHANG, Tong Che, Boris Ivanovic et al. | [📖](https://openreview.net/forum?id=wcNtbEtcGIC) |
 | 2023 | ICLR | Exploring The Role of Mean Teachers in Self-supervised Masked Auto-Encoders | Youngwan Lee, Jeff Willette, Jonghee Kim et al. | [📖](https://openreview.net/forum?id=7sn6Vxp92xV) |
 | 2023 | ICLR | Images as Weight Matrices: Sequential Image Generation Through Synaptic Learning Rules | Kazuki Irie, Jürgen Schmidhuber | [📖](https://openreview.net/forum?id=ddad0PNUvV) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-emnlp"></a>
+### 2023 · EMNLP (42 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | EMNLP | Decoding the Silent Majority: Inducing Belief Augmented Social Graph with Large Language Model for Response Forecasting | Chenkai Sun, Jinning Li, Yi Fung et al. | [📖](https://aclanthology.org/2023.emnlp-main.4/) |
 | 2023 | EMNLP | Let’s Think Frame by Frame with | Vaishnavi Himakunthala, Andy Ouyang, Daniel Rose et al. | [📖](https://aclanthology.org/2023.emnlp-main.15/) |
 | 2023 | EMNLP | Compressing and Debiasing Vision-Language Pre-Trained Models for Visual Question Answering | Qingyi Si, Yuanxin Liu, Zheng Lin et al. | [📖](https://aclanthology.org/2023.emnlp-main.34/) |
@@ -6539,6 +6902,14 @@ python scripts/main.py --generate-only
 | 2023 | EMNLP | Elevating Code-mixed Text Handling through Auditory Information of Words | Mamta, Zishan Ahmad, Asif Ekbal | [📖](https://aclanthology.org/2023.emnlp-main.987/) |
 | 2023 | EMNLP | Security Challenges in Natural Language Processing Models | Qiongkai Xu, Xuanli He | [📖](https://aclanthology.org/2023.emnlp-tutorial.2/) |
 | 2023 | EMNLP | Joint Dialogue Topic Segmentation and Categorization: A Case Study on Clinical Spoken Conversations | Zhengyuan Liu, Siti Umairah Md Salleh, Hong Choon Oh et al. | [📖](https://aclanthology.org/2023.emnlp-industry.19/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-cvpr"></a>
+### 2023 · CVPR (99 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | CVPR | TrojViT: Trojan Insertion in Vision Transformers |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
 | 2023 | CVPR | Towards Compositional Adversarial Robustness: Generalizing Adversarial Training to Composite Semantic Perturbations |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
 | 2023 | CVPR | Re-Thinking Model Inversion Attacks Against Deep Neural Networks |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
@@ -6638,6 +7009,14 @@ python scripts/main.py --generate-only
 | 2023 | CVPR | Evading DeepFake Detectors via Adversarial Statistical Consistency |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
 | 2023 | CVPR | Evading Forensic Classifiers With Attribute-Conditioned Adversarial Faces |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
 | 2023 | CVPR | TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation |  | [📖](https://openaccess.thecvf.com/CVPR2023?day=all) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-ccs"></a>
+### 2023 · CCS (31 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | CCS | AntiFake: Using Adversarial Audio to Prevent Unauthorized Speech Synthesis. | Zhiyuan Yu, Shixuan Zhai, Ning Zhang | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
 | 2023 | CCS | Narcissus: A Practical Clean-Label Backdoor Attack with Limited Information. | Yi Zeng, Minzhou Pan, Hoang Anh Just et al. | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
 | 2023 | CCS | Evading Watermark based Detection of AI-Generated Content. | Zhengyuan Jiang, Jinghuai Zhang, Neil Zhenqiang Gong | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
@@ -6669,6 +7048,14 @@ python scripts/main.py --generate-only
 | 2023 | CCS | Poster: Unveiling the Impact of Patch Placement: Adversarial Patch Attacks on Monocular Depth Estimation. | Gyungeun Yun, Kyungho Joo, Wonsuk Choi et al. | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
 | 2023 | CCS | Poster: Verifiable Data Valuation with Strong Fairness in Horizontal Federated Learning. | Ruei-Hau Hsu, Hsuan-Cheng Su, Yi-An Yu | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
 | 2023 | CCS | Demo: Certified Robustness on Toolformer. | Yue Xu, Wenjie Wang | [📖](https://dblp.org/db/conf/ccs/ccs2023.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-acl"></a>
+### 2023 · ACL (183 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | ACL | Span-Selective Linear Attention Transformers for Effective and Robust Schema-Guided Dialogue State Tracking | Björn Bebensee, Haejun Lee | [📖](https://aclanthology.org/2023.acl-long.6/) |
 | 2023 | ACL | Text Adversarial Purification as Defense against Adversarial Attacks | Linyang Li, Demin Song, Xipeng Qiu | [📖](https://aclanthology.org/2023.acl-long.20/) |
 | 2023 | ACL | Rule By Example: Harnessing Logical Rules for Explainable Hate Speech Detection | Christopher Clarke, Matthew Hall, Gaurav Mittal et al. | [📖](https://aclanthology.org/2023.acl-long.22/) |
@@ -6852,6 +7239,14 @@ python scripts/main.py --generate-only
 | 2023 | ACL | Adversarial Text Generation by Search and Learning | Guoyi Li, Bingkang Shi, Zongzhen Liu et al. | [📖](https://aclanthology.org/2023.findings-emnlp.1053/) |
 | 2023 | ACL | A Neighbourhood-Aware Differential Privacy Mechanism for Static Word Embeddings | Danushka Bollegala, Shuichi Otake, Tomoya Machide et al. | [📖](https://aclanthology.org/2023.findings-ijcnlp.7/) |
 | 2023 | ACL | What Learned Representations and Influence Functions Can Tell Us About Adversarial Examples | Shakila Mahjabin Tonni, Mark Dras | [📖](https://aclanthology.org/2023.findings-ijcnlp.35/) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
+<a id="papers-2023-aaai"></a>
+### 2023 · AAAI (106 papers)
+
+| Year | Conference | Title | Authors | Link |
+|------|------------|-------|---------|------|
 | 2023 | AAAI | Imperceptible Adversarial Attack via Invertible Neural Networks. | Zihan Chen, Ziyue Wang, Jun-Jie Huang et al. | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
 | 2023 | AAAI | Neural Architecture Search for Wide Spectrum Adversarial Robustness. | Zhi Cheng, Yanxi Li, Minjing Dong et al. | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
 | 2023 | AAAI | Adversarial Alignment for Source Free Object Detection. | Qiaosong Chu, Shuyan Li, Guangyi Chen et al. | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
@@ -6958,6 +7353,9 @@ python scripts/main.py --generate-only
 | 2023 | AAAI | Improving Adversarial Robustness to Sensitivity and Invariance Attacks with Deep Metric Learning (Student Abstract). | Anaelia Ovalle, Evan Czyzycki, Cho-Jui Hsieh | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
 | 2023 | AAAI | Can Adversarial Networks Make Uninformative Colonoscopy Video Frames Clinically Informative? (Student Abstract). | Vanshali Sharma, Manas Kamal Bhuyan, Pradip K. Das | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
 | 2023 | AAAI | Mask-Net: Learning Context Aware Invariant Features Using Adversarial Forgetting (Student Abstract). | Hemant Yadav, Rajiv Ratn Shah | [📖](https://dblp.org/db/conf/aaai/aaai2023.html) |
+
+[⬆ Back to Index / 返回目录](#paper-list--论文列表)
+
 <!-- PAPERS_TABLE_END -->
 
 ## Statistics / 统计
