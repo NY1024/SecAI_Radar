@@ -45,7 +45,7 @@ Papers are filtered by matching keywords in title/abstract, covering:
 
 #### Auto Update
 
-GitHub Actions runs bi-monthly (1st and 15th of each month) to check conference websites and auto-update.
+GitHub Actions runs every two months (1st of odd months) to check conference websites and auto-update.
 
 #### Manual Trigger
 
@@ -103,7 +103,7 @@ python scripts/main.py --generate-only
 
 #### 自动运行
 
-GitHub Actions 每两周（每月 1 日和 15 日）定时检查会议官网，发现新 accepted papers 列表后自动抓取、筛选并更新。
+GitHub Actions 每两个月（奇数月 1 日）定时检查会议官网，发现新 accepted papers 列表后自动抓取、筛选并更新。
 
 #### 手动触发
 

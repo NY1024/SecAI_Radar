@@ -2,9 +2,8 @@ name: SecAI_Radar Bi-Monthly Update
 
 on:
   schedule:
-    # 每月 1 日和 15 日 UTC 2:00 运行（北京时间 10:00）
-    # 约每两周检查一次会议是否有新论文
-    - cron: "0 2 1,15 * *"
+    # 每两个月运行一次：1月、3月、5月、7月、9月、11月的 1 日 UTC 2:00（北京时间 10:00）
+    - cron: "0 2 1 */2 *"
   workflow_dispatch:
     # 支持手动触发
 
