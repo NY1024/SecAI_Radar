@@ -1,6 +1,8 @@
 # SecAI_Radar
 
-> 🛡️ Tracking AI security papers from top-tier AI & security conferences. / 追踪顶级 AI 与安全会议中的 AI 安全相关论文。
+> 🛡️ Tracking AI security papers from top-tier AI & security conferences. / 追踪顶级 AI 与安全会议中的 AI 安全相关论文.
+
+🔗 **GitHub Pages**: [https://ny1024.github.io/SecAI_Radar/](https://ny1024.github.io/SecAI_Radar/)
 
 [English](#english) | [中文](#中文)
 

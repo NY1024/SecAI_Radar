@@ -480,6 +480,8 @@
             font-size: 0.85rem;
             background: var(--bg-card);
         }
+        .footer .maintainer-info { margin-top: 0.4rem; font-size: 0.8rem; }
+        .footer .maintainer-info a { color: var(--accent); }
 
         /* ===== Loading / Empty ===== */
         .loading, .empty {
@@ -595,7 +597,11 @@
 
     <footer class="footer">
         <p id="footer-text"></p>
-<p><a href="https://github.com/NY1024/SecAI_Radar">GitHub Repository</a> · MIT License</p>
+        <p><a href="https://github.com/NY1024/SecAI_Radar">GitHub Repository</a> · MIT License</p>
+        <p class="maintainer-info">
+            <span id="maintained-by"></span>
+            <a href="mailto:yingzonghao20@mails.ucas.ac.cn">Zonghao Ying</a>
+        </p>
     </footer>
 
     <script>
@@ -620,6 +626,7 @@
                 showAbstract: "📖 Show Abstract",
                 hideAbstract: "📖 Hide Abstract",
                 footer: "SecAI Radar",
+                maintainedBy: "Maintained by",
                 pageOf: (c, t) => `${c} / ${t}`,
             },
             zh: {
@@ -641,6 +648,7 @@
                 showAbstract: "📖 展开摘要",
                 hideAbstract: "📖 收起摘要",
                 footer: "SecAI Radar",
+                maintainedBy: "维护人",
                 pageOf: (c, t) => `第 ${c} / ${t} 页`,
             }
         };
@@ -696,6 +704,8 @@
             document.getElementById("search").placeholder = t("searchPh");
             document.getElementById("reset-btn").textContent = t("reset");
             document.getElementById("footer-text").textContent = t("footer");
+            const maintEl = document.getElementById("maintained-by");
+            if (maintEl) maintEl.textContent = t("maintainedBy") + " ";
 
             const loadingEl = document.getElementById("loading-text");
             if (loadingEl) loadingEl.textContent = t("loading");
